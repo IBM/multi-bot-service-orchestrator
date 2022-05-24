@@ -1,0 +1,35 @@
+{
+  "name": "@ibm-aca/session-store",
+  "version": "1.0.0",
+  "description": "Session Store Service",
+  "author": "IBM",
+  "contributors": [
+    {
+      "name" : "Aurimas Jocys",
+      "email" : "aurimas.jocys@ibm.com"
+    },
+    {
+      "name" : "Eimantas Pelikis",
+      "email" : "eimantas.pelikis@lt.ibm.com"
+    },
+    {
+      "name" : "Paulius Sergeda",
+      "email" : "Paulius.Sergeda@ibm.com"
+    },
+    {
+      "name" : "Tomas Stravinskas",
+      "email" : "Tomas.Stravinskas@ibm.com"
+    }
+  ],
+  "license": "EPL-2.0",
+  "private": true,
+  "main": "dist/index",
+  "scripts": {
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "@ibm-aca/bot-adapter": "^1.0.0",
+    "@ibm-aca/common-logger": "^1.0.0",
+    "redis": "^4.0.4"
+  }
+}

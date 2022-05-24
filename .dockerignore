@@ -1,0 +1,20 @@
+# Ignore the logs directory
+logs/
+**/npm-debug.log
+
+# Ignoring editor configs
+.vscode
+.editorconfig
+
+# Ignoring git and cache folders
+.git
+.cache
+.husky/
+
+# Ignoring all .md and docs files
+docs/
+*.md
+
+# Ignoring deps and dist
+**/node_modules
+**/dist

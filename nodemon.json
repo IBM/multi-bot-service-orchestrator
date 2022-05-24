@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "watch": [
+    "./**/*"
+  ],
+  "exec": "DOTENV_CONFIG_PATH=local.env ts-node -r dotenv/config --files src/index.ts",
+  "ext": "ts"
+}

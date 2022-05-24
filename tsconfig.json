@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "sourceMap": true
+  },
+  "references": [
+    { "path": "packages/bot-adapter" },
+    { "path": "packages/echo-bot" },
+    { "path": "packages/mongo-store" },
+    { "path": "packages/azure-qna-bot" },
+    { "path": "packages/common-config" },
+    { "path": "packages/common-logger" },
+    { "path": "packages/conversation-data-logger" },
+    { "path": "packages/nlu-services" },
+    { "path": "packages/watson-assistant-bot" },
+    { "path": "packages/orchestrator" },
+    { "path": "packages/session-store" },
+    { "path": "packages/snow-bot" }
+  ]
+}

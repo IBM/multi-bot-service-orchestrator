@@ -1,0 +1,58 @@
+{
+  "ignorePatterns": [
+    "/node_modules/",
+    "/dist/",
+    "/**/*.js"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "simple-import-sort",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "func-style": [
+      "error",
+      "expression",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "printWidth": 140,
+        "singleQuote": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true
+      }
+    ],
+    "no-async-promise-executor": "off",
+    "prefer-arrow-callback": "error",
+    "no-use-before-define": "error",
+    "no-prototype-builtins": "off",
+    "prefer-const": "error",
+    "no-console": "error",
+    "no-var": "error",
+    "prefer-template": "error"
+  }
+}

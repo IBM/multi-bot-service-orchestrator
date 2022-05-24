@@ -1,0 +1,44 @@
+{
+  "name": "@ibm-aca/conversation-data-logger",
+  "version": "1.0.0",
+  "description": "Conversation Data Logger",
+  "author": "IBM",
+  "contributors": [
+    {
+      "name" : "Aurimas Jocys",
+      "email" : "aurimas.jocys@ibm.com"
+    },
+    {
+      "name" : "Eimantas Pelikis",
+      "email" : "eimantas.pelikis@lt.ibm.com"
+    },
+    {
+      "name" : "Paulius Sergeda",
+      "email" : "Paulius.Sergeda@ibm.com"
+    },
+    {
+      "name" : "Tomas Stravinskas",
+      "email" : "Tomas.Stravinskas@ibm.com"
+    }
+  ],
+  "license": "EPL-2.0",
+  "private": true,
+  "main": "dist/index",
+  "scripts": {
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "@ibm-aca/common-config": "^1.0.0",
+    "@ibm-aca/common-logger": "^1.0.0",
+    "@ibm-aca/session-store": "^1.0.0",
+    "@types/pg": "^8.6.5",
+    "axios": "^0.26.0",
+    "botbuilder": "^4.15.0",
+    "dayjs": "^1.11.0",
+    "pg": "^8.7.3",
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.5"
+  }
+}
